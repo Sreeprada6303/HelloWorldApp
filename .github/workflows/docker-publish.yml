@@ -10,7 +10,7 @@ on:
     branches: [ "master" ]
 
 env:
-  REGISTRY: helloworldacr.azurecr.io
+  REGISTRY: helloworldddacr.azurecr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
